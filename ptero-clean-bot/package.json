@@ -1,0 +1,14 @@
+{
+  "name": "ptero-clean-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot untuk manage & bersihin server Pterodactyl (PTLA) - jalan di Vercel (webhook mode)",
+  "main": "api/bot.js",
+  "scripts": {
+    "set-webhook": "node scripts/set-webhook.js",
+    "delete-webhook": "node scripts/delete-webhook.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "axios": "^1.7.7"
+  }
+}
